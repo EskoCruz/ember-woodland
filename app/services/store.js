@@ -1,4 +1,7 @@
 import Ember from 'ember';
+import LineItem from 'woodland/models/line-item';
+import Order from 'woodland/models/order';
+import Product from 'woodland/models/product';
 
 export default Ember.Service.extend({
 	getOrderById(id) {
